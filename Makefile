@@ -1,5 +1,5 @@
 run:
-	docker run --rm -it wordle-cli
+	docker run --rm -it noritakaizumi/wordle-cli
 
 build:
-	docker build -t wordle-cli ./app
+	docker build -t noritakaizumi/wordle-cli .
